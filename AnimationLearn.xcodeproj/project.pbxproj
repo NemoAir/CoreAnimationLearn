@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE06C9DA1A1AF5DF00406606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06C9D91A1AF5DF00406606 /* main.m */; };
+		FE06C9DD1A1AF5DF00406606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06C9DC1A1AF5DF00406606 /* AppDelegate.m */; };
+		FE06C9E01A1AF5DF00406606 /* AnimationSquareController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06C9DF1A1AF5DF00406606 /* AnimationSquareController.m */; };
+		FE06C9E31A1AF5DF00406606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE06C9E11A1AF5DF00406606 /* Main.storyboard */; };
+		FE06C9E51A1AF5DF00406606 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE06C9E41A1AF5DF00406606 /* Images.xcassets */; };
+		FE06C9E81A1AF5DF00406606 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE06C9E61A1AF5DF00406606 /* LaunchScreen.xib */; };
+		FE06C9F41A1AF5DF00406606 /* AnimationLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06C9F31A1AF5DF00406606 /* AnimationLearnTests.m */; };
+		FE06C9FF1A1B336B00406606 /* PortraitController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06C9FE1A1B336B00406606 /* PortraitController.m */; };
+		FE6715621A25D43C00256914 /* ButterflyController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6715601A25D43C00256914 /* ButterflyController.m */; };
+		FE6715631A25D43C00256914 /* ButterflyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE6715611A25D43C00256914 /* ButterflyController.xib */; };
+		FE6715661A270FCF00256914 /* FingerDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6715651A270FCF00256914 /* FingerDrawController.m */; };
+		FE6715691A27102F00256914 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6715681A27102F00256914 /* DrawView.m */; };
+		FEDD1B0B1A1B3ECF004530BA /* NemoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD1B0A1A1B3ECF004530BA /* NemoLayer.m */; };
+		FEDD1B0E1A1B414D004530BA /* NemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD1B0D1A1B414D004530BA /* NemoView.m */; };
+		FEDD1B111A1B4213004530BA /* ViewDrewLearhController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD1B101A1B4213004530BA /* ViewDrewLearhController.m */; };
+		FEDD1B141A1B4388004530BA /* SakuraAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD1B131A1B4388004530BA /* SakuraAnimationController.m */; };
+		FEDD1B171A1C68D5004530BA /* NemoScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDD1B161A1C68D5004530BA /* NemoScrollController.m */; };
+		FEF790431A22D91A008F677C /* RotationYController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF790411A22D91A008F677C /* RotationYController.m */; };
+		FEF790441A22D91A008F677C /* RotationYController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF790421A22D91A008F677C /* RotationYController.xib */; };
+		FEF790481A23024D008F677C /* SpecialLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF790461A23024D008F677C /* SpecialLayerController.m */; };
+		FEF790491A23024D008F677C /* SpecialLayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF790471A23024D008F677C /* SpecialLayerController.xib */; };
+		FEF7904D1A233D4E008F677C /* DefaultAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7904B1A233D4E008F677C /* DefaultAnimationController.m */; };
+		FEF7904E1A233D4E008F677C /* DefaultAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF7904C1A233D4E008F677C /* DefaultAnimationController.xib */; };
+		FEFCE1881A1C99D300CC0C4A /* KVCFliterArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCE1871A1C99D300CC0C4A /* KVCFliterArrayController.m */; };
+		FEFCE18B1A1C9DDE00CC0C4A /* FirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCE18A1A1C9DDE00CC0C4A /* FirstController.m */; };
+		FEFCE18E1A1DC41A00CC0C4A /* NemoClockController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCE18D1A1DC41A00CC0C4A /* NemoClockController.m */; };
+		FEFCE1911A1DE7BC00CC0C4A /* TransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCE1901A1DE7BC00CC0C4A /* TransformController.m */; };
+		FEFCE1951A1DF8B600CC0C4A /* CubicController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFCE1931A1DF8B600CC0C4A /* CubicController.m */; };
+		FEFCE1961A1DF8B600CC0C4A /* CubicController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEFCE1941A1DF8B600CC0C4A /* CubicController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE06C9EE1A1AF5DF00406606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE06C9CC1A1AF5DF00406606 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE06C9D31A1AF5DF00406606;
+			remoteInfo = AnimationLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE06C9D41A1AF5DF00406606 /* AnimationLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE06C9D81A1AF5DF00406606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE06C9D91A1AF5DF00406606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE06C9DB1A1AF5DF00406606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE06C9DC1A1AF5DF00406606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE06C9DE1A1AF5DF00406606 /* AnimationSquareController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationSquareController.h; sourceTree = "<group>"; };
+		FE06C9DF1A1AF5DF00406606 /* AnimationSquareController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationSquareController.m; sourceTree = "<group>"; };
+		FE06C9E21A1AF5DF00406606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE06C9E41A1AF5DF00406606 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE06C9E71A1AF5DF00406606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FE06C9ED1A1AF5DF00406606 /* AnimationLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE06C9F21A1AF5DF00406606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE06C9F31A1AF5DF00406606 /* AnimationLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationLearnTests.m; sourceTree = "<group>"; };
+		FE06C9FD1A1B336B00406606 /* PortraitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitController.h; sourceTree = "<group>"; };
+		FE06C9FE1A1B336B00406606 /* PortraitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitController.m; sourceTree = "<group>"; };
+		FE67155F1A25D43C00256914 /* ButterflyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButterflyController.h; sourceTree = "<group>"; };
+		FE6715601A25D43C00256914 /* ButterflyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButterflyController.m; sourceTree = "<group>"; };
+		FE6715611A25D43C00256914 /* ButterflyController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButterflyController.xib; sourceTree = "<group>"; };
+		FE6715641A270FCF00256914 /* FingerDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerDrawController.h; sourceTree = "<group>"; };
+		FE6715651A270FCF00256914 /* FingerDrawController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerDrawController.m; sourceTree = "<group>"; };
+		FE6715671A27102F00256914 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		FE6715681A27102F00256914 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		FEDD1B091A1B3ECF004530BA /* NemoLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NemoLayer.h; sourceTree = "<group>"; };
+		FEDD1B0A1A1B3ECF004530BA /* NemoLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoLayer.m; sourceTree = "<group>"; };
+		FEDD1B0C1A1B414D004530BA /* NemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NemoView.h; sourceTree = "<group>"; };
+		FEDD1B0D1A1B414D004530BA /* NemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoView.m; sourceTree = "<group>"; };
+		FEDD1B0F1A1B4213004530BA /* ViewDrewLearhController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDrewLearhController.h; sourceTree = "<group>"; };
+		FEDD1B101A1B4213004530BA /* ViewDrewLearhController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDrewLearhController.m; sourceTree = "<group>"; };
+		FEDD1B121A1B4388004530BA /* SakuraAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SakuraAnimationController.h; sourceTree = "<group>"; };
+		FEDD1B131A1B4388004530BA /* SakuraAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SakuraAnimationController.m; sourceTree = "<group>"; };
+		FEDD1B151A1C68D5004530BA /* NemoScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NemoScrollController.h; sourceTree = "<group>"; };
+		FEDD1B161A1C68D5004530BA /* NemoScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoScrollController.m; sourceTree = "<group>"; };
+		FEF790401A22D919008F677C /* RotationYController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationYController.h; sourceTree = "<group>"; };
+		FEF790411A22D91A008F677C /* RotationYController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationYController.m; sourceTree = "<group>"; };
+		FEF790421A22D91A008F677C /* RotationYController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotationYController.xib; sourceTree = "<group>"; };
+		FEF790451A23024D008F677C /* SpecialLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialLayerController.h; sourceTree = "<group>"; };
+		FEF790461A23024D008F677C /* SpecialLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialLayerController.m; sourceTree = "<group>"; };
+		FEF790471A23024D008F677C /* SpecialLayerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecialLayerController.xib; sourceTree = "<group>"; };
+		FEF7904A1A233D4E008F677C /* DefaultAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultAnimationController.h; sourceTree = "<group>"; };
+		FEF7904B1A233D4E008F677C /* DefaultAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultAnimationController.m; sourceTree = "<group>"; };
+		FEF7904C1A233D4E008F677C /* DefaultAnimationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultAnimationController.xib; sourceTree = "<group>"; };
+		FEFCE1861A1C99D300CC0C4A /* KVCFliterArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCFliterArrayController.h; sourceTree = "<group>"; };
+		FEFCE1871A1C99D300CC0C4A /* KVCFliterArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCFliterArrayController.m; sourceTree = "<group>"; };
+		FEFCE1891A1C9DDE00CC0C4A /* FirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstController.h; sourceTree = "<group>"; };
+		FEFCE18A1A1C9DDE00CC0C4A /* FirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstController.m; sourceTree = "<group>"; };
+		FEFCE18C1A1DC41A00CC0C4A /* NemoClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NemoClockController.h; sourceTree = "<group>"; };
+		FEFCE18D1A1DC41A00CC0C4A /* NemoClockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NemoClockController.m; sourceTree = "<group>"; };
+		FEFCE18F1A1DE7BC00CC0C4A /* TransformController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformController.h; sourceTree = "<group>"; };
+		FEFCE1901A1DE7BC00CC0C4A /* TransformController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformController.m; sourceTree = "<group>"; };
+		FEFCE1921A1DF8B600CC0C4A /* CubicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicController.h; sourceTree = "<group>"; };
+		FEFCE1931A1DF8B600CC0C4A /* CubicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubicController.m; sourceTree = "<group>"; };
+		FEFCE1941A1DF8B600CC0C4A /* CubicController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CubicController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE06C9D11A1AF5DF00406606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE06C9EA1A1AF5DF00406606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE06C9CB1A1AF5DF00406606 = {
+			isa = PBXGroup;
+			children = (
+				FE06C9D61A1AF5DF00406606 /* AnimationLearn */,
+				FE06C9F01A1AF5DF00406606 /* AnimationLearnTests */,
+				FE06C9D51A1AF5DF00406606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE06C9D51A1AF5DF00406606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE06C9D41A1AF5DF00406606 /* AnimationLearn.app */,
+				FE06C9ED1A1AF5DF00406606 /* AnimationLearnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE06C9D61A1AF5DF00406606 /* AnimationLearn */ = {
+			isa = PBXGroup;
+			children = (
+				FE06C9DB1A1AF5DF00406606 /* AppDelegate.h */,
+				FE06C9DC1A1AF5DF00406606 /* AppDelegate.m */,
+				FEFCE1891A1C9DDE00CC0C4A /* FirstController.h */,
+				FEFCE18A1A1C9DDE00CC0C4A /* FirstController.m */,
+				FE06C9DE1A1AF5DF00406606 /* AnimationSquareController.h */,
+				FE06C9DF1A1AF5DF00406606 /* AnimationSquareController.m */,
+				FE06C9FD1A1B336B00406606 /* PortraitController.h */,
+				FE06C9FE1A1B336B00406606 /* PortraitController.m */,
+				FEDD1B091A1B3ECF004530BA /* NemoLayer.h */,
+				FEDD1B0A1A1B3ECF004530BA /* NemoLayer.m */,
+				FEDD1B0C1A1B414D004530BA /* NemoView.h */,
+				FEDD1B0D1A1B414D004530BA /* NemoView.m */,
+				FEDD1B0F1A1B4213004530BA /* ViewDrewLearhController.h */,
+				FEDD1B101A1B4213004530BA /* ViewDrewLearhController.m */,
+				FEDD1B121A1B4388004530BA /* SakuraAnimationController.h */,
+				FEDD1B131A1B4388004530BA /* SakuraAnimationController.m */,
+				FEDD1B151A1C68D5004530BA /* NemoScrollController.h */,
+				FEDD1B161A1C68D5004530BA /* NemoScrollController.m */,
+				FEFCE1861A1C99D300CC0C4A /* KVCFliterArrayController.h */,
+				FEFCE1871A1C99D300CC0C4A /* KVCFliterArrayController.m */,
+				FEFCE18C1A1DC41A00CC0C4A /* NemoClockController.h */,
+				FEFCE18D1A1DC41A00CC0C4A /* NemoClockController.m */,
+				FEFCE18F1A1DE7BC00CC0C4A /* TransformController.h */,
+				FEFCE1901A1DE7BC00CC0C4A /* TransformController.m */,
+				FEFCE1921A1DF8B600CC0C4A /* CubicController.h */,
+				FEFCE1931A1DF8B600CC0C4A /* CubicController.m */,
+				FEFCE1941A1DF8B600CC0C4A /* CubicController.xib */,
+				FEF790401A22D919008F677C /* RotationYController.h */,
+				FEF790411A22D91A008F677C /* RotationYController.m */,
+				FEF790421A22D91A008F677C /* RotationYController.xib */,
+				FEF790451A23024D008F677C /* SpecialLayerController.h */,
+				FEF790461A23024D008F677C /* SpecialLayerController.m */,
+				FEF790471A23024D008F677C /* SpecialLayerController.xib */,
+				FEF7904A1A233D4E008F677C /* DefaultAnimationController.h */,
+				FEF7904B1A233D4E008F677C /* DefaultAnimationController.m */,
+				FEF7904C1A233D4E008F677C /* DefaultAnimationController.xib */,
+				FE67155F1A25D43C00256914 /* ButterflyController.h */,
+				FE6715601A25D43C00256914 /* ButterflyController.m */,
+				FE6715611A25D43C00256914 /* ButterflyController.xib */,
+				FE6715641A270FCF00256914 /* FingerDrawController.h */,
+				FE6715651A270FCF00256914 /* FingerDrawController.m */,
+				FE6715671A27102F00256914 /* DrawView.h */,
+				FE6715681A27102F00256914 /* DrawView.m */,
+				FE06C9E11A1AF5DF00406606 /* Main.storyboard */,
+				FE06C9E41A1AF5DF00406606 /* Images.xcassets */,
+				FE06C9E61A1AF5DF00406606 /* LaunchScreen.xib */,
+				FE06C9D71A1AF5DF00406606 /* Supporting Files */,
+			);
+			path = AnimationLearn;
+			sourceTree = "<group>";
+		};
+		FE06C9D71A1AF5DF00406606 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE06C9D81A1AF5DF00406606 /* Info.plist */,
+				FE06C9D91A1AF5DF00406606 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE06C9F01A1AF5DF00406606 /* AnimationLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE06C9F31A1AF5DF00406606 /* AnimationLearnTests.m */,
+				FE06C9F11A1AF5DF00406606 /* Supporting Files */,
+			);
+			path = AnimationLearnTests;
+			sourceTree = "<group>";
+		};
+		FE06C9F11A1AF5DF00406606 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE06C9F21A1AF5DF00406606 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE06C9D31A1AF5DF00406606 /* AnimationLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE06C9F71A1AF5DF00406606 /* Build configuration list for PBXNativeTarget "AnimationLearn" */;
+			buildPhases = (
+				FE06C9D01A1AF5DF00406606 /* Sources */,
+				FE06C9D11A1AF5DF00406606 /* Frameworks */,
+				FE06C9D21A1AF5DF00406606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationLearn;
+			productName = AnimationLearn;
+			productReference = FE06C9D41A1AF5DF00406606 /* AnimationLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE06C9EC1A1AF5DF00406606 /* AnimationLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE06C9FA1A1AF5DF00406606 /* Build configuration list for PBXNativeTarget "AnimationLearnTests" */;
+			buildPhases = (
+				FE06C9E91A1AF5DF00406606 /* Sources */,
+				FE06C9EA1A1AF5DF00406606 /* Frameworks */,
+				FE06C9EB1A1AF5DF00406606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE06C9EF1A1AF5DF00406606 /* PBXTargetDependency */,
+			);
+			name = AnimationLearnTests;
+			productName = AnimationLearnTests;
+			productReference = FE06C9ED1A1AF5DF00406606 /* AnimationLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE06C9CC1A1AF5DF00406606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Nemo;
+				TargetAttributes = {
+					FE06C9D31A1AF5DF00406606 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FE06C9EC1A1AF5DF00406606 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FE06C9D31A1AF5DF00406606;
+					};
+				};
+			};
+			buildConfigurationList = FE06C9CF1A1AF5DF00406606 /* Build configuration list for PBXProject "AnimationLearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE06C9CB1A1AF5DF00406606;
+			productRefGroup = FE06C9D51A1AF5DF00406606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE06C9D31A1AF5DF00406606 /* AnimationLearn */,
+				FE06C9EC1A1AF5DF00406606 /* AnimationLearnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE06C9D21A1AF5DF00406606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE06C9E31A1AF5DF00406606 /* Main.storyboard in Resources */,
+				FEF790491A23024D008F677C /* SpecialLayerController.xib in Resources */,
+				FE06C9E81A1AF5DF00406606 /* LaunchScreen.xib in Resources */,
+				FEFCE1961A1DF8B600CC0C4A /* CubicController.xib in Resources */,
+				FEF790441A22D91A008F677C /* RotationYController.xib in Resources */,
+				FE6715631A25D43C00256914 /* ButterflyController.xib in Resources */,
+				FE06C9E51A1AF5DF00406606 /* Images.xcassets in Resources */,
+				FEF7904E1A233D4E008F677C /* DefaultAnimationController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE06C9EB1A1AF5DF00406606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE06C9D01A1AF5DF00406606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF790431A22D91A008F677C /* RotationYController.m in Sources */,
+				FEDD1B0B1A1B3ECF004530BA /* NemoLayer.m in Sources */,
+				FEDD1B171A1C68D5004530BA /* NemoScrollController.m in Sources */,
+				FEFCE1881A1C99D300CC0C4A /* KVCFliterArrayController.m in Sources */,
+				FEF7904D1A233D4E008F677C /* DefaultAnimationController.m in Sources */,
+				FEDD1B141A1B4388004530BA /* SakuraAnimationController.m in Sources */,
+				FEF790481A23024D008F677C /* SpecialLayerController.m in Sources */,
+				FE6715661A270FCF00256914 /* FingerDrawController.m in Sources */,
+				FEFCE18B1A1C9DDE00CC0C4A /* FirstController.m in Sources */,
+				FE06C9FF1A1B336B00406606 /* PortraitController.m in Sources */,
+				FE06C9E01A1AF5DF00406606 /* AnimationSquareController.m in Sources */,
+				FEFCE18E1A1DC41A00CC0C4A /* NemoClockController.m in Sources */,
+				FEDD1B0E1A1B414D004530BA /* NemoView.m in Sources */,
+				FEFCE1911A1DE7BC00CC0C4A /* TransformController.m in Sources */,
+				FE6715691A27102F00256914 /* DrawView.m in Sources */,
+				FEFCE1951A1DF8B600CC0C4A /* CubicController.m in Sources */,
+				FEDD1B111A1B4213004530BA /* ViewDrewLearhController.m in Sources */,
+				FE06C9DD1A1AF5DF00406606 /* AppDelegate.m in Sources */,
+				FE06C9DA1A1AF5DF00406606 /* main.m in Sources */,
+				FE6715621A25D43C00256914 /* ButterflyController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE06C9E91A1AF5DF00406606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE06C9F41A1AF5DF00406606 /* AnimationLearnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE06C9EF1A1AF5DF00406606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE06C9D31A1AF5DF00406606 /* AnimationLearn */;
+			targetProxy = FE06C9EE1A1AF5DF00406606 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE06C9E11A1AF5DF00406606 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE06C9E21A1AF5DF00406606 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE06C9E61A1AF5DF00406606 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE06C9E71A1AF5DF00406606 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE06C9F51A1AF5DF00406606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE06C9F61A1AF5DF00406606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE06C9F81A1AF5DF00406606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AnimationLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE06C9F91A1AF5DF00406606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AnimationLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE06C9FB1A1AF5DF00406606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimationLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationLearn.app/AnimationLearn";
+			};
+			name = Debug;
+		};
+		FE06C9FC1A1AF5DF00406606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimationLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationLearn.app/AnimationLearn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE06C9CF1A1AF5DF00406606 /* Build configuration list for PBXProject "AnimationLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE06C9F51A1AF5DF00406606 /* Debug */,
+				FE06C9F61A1AF5DF00406606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE06C9F71A1AF5DF00406606 /* Build configuration list for PBXNativeTarget "AnimationLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE06C9F81A1AF5DF00406606 /* Debug */,
+				FE06C9F91A1AF5DF00406606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE06C9FA1A1AF5DF00406606 /* Build configuration list for PBXNativeTarget "AnimationLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE06C9FB1A1AF5DF00406606 /* Debug */,
+				FE06C9FC1A1AF5DF00406606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE06C9CC1A1AF5DF00406606 /* Project object */;
+}
